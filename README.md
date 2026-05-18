@@ -1,0 +1,43 @@
+============================================================
+Laboratorio 1 - Paradigmas de Programación
+Pokémon TCG en Scheme - Paradigma Funcional
+============================================================
+
+Autor: Felipe Cifuentes Carrasco
+Entorno: DrRacket v9.1
+
+============================================================
+ESTRUCTURA DE ARCHIVOS
+============================================================
+
+main_17407479_CifuentesCarrasco.rkt          	→ Archivo principal (require/provide)
+base_17407479_CifuentesCarrasco.rkt          	→ Constantes y enumeraciones (RF01)
+TDAataque_17407479_CifuentesCarrasco.rkt     	→ TDA Ataque y Habilidad (RF02)
+TDAcarta_17407479_CifuentesCarrasco.rkt      	→ TDA Card (RF03)
+TDAmazo_17407479_CifuentesCarrasco.rkt       	→ TDA Deck + shuffleDeck (RF04, RF05)
+TDApokemonEnJuego_17407479_CifuentesCarrasco.rkt → TDA Pokémon en juego
+TDAjugador_17407479_CifuentesCarrasco.rkt    	→ TDA Jugador
+TDAjuego_17407479_CifuentesCarrasco.rkt      	→ TDA Juego + initGame (RF06)
+printGame_17407479_CifuentesCarrasco.rkt     	→ printGame (RF07)
+funciones_17407479_CifuentesCarrasco.rkt     	→ Funciones de juego (RF08-RF15)
+pruebas_17407479_CifuentesCarrasco.rkt       	→ Script de pruebas (RNF10)
+leame.txt                                    	→ Este archivo
+
+============================================================
+INSTRUCCIONES DE EJECUCIÓN
+============================================================
+
+1. Abrir DrRacket.
+
+2. Abrir el archivo:
+   pruebas_17407479_CifuentesCarrasco.rkt
+
+3. Presionar "Run" (Ctrl+R)
+
+4. El script muestra:
+   - Pruebas de constructores y selectores (RF02, RF03)
+   - Creación y barajado de mazos (RF04, RF05)
+   - Inicio de juego con 3 semillas distintas (RF06)
+   - Visualización del estado del juego (RF07)
+   - Simulación de 16 turnos de juego (RF08-RF15)
+   - Estado final de la partida
